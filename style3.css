@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 200px;
+}
+body {
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-right: 12px;
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  background-color: rgb(187, 182, 182);
+  height: 50px;
+  width: 100%;
+  border-radius: 15px;
+}
+main ul {
+  display: flex;
+}
+main ul li {
+  list-style: none;
+  margin-left: 7px;
+  align-items: center;
+}
+main ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  justify-items: center;
+  padding: 10px;
+}
+main ul li a:hover {
+  background-color: rgb(131, 131, 201);
+  color: #fff;
+  border-radius: 7px;
+}
+main ul li a:focus {
+  outline: gray auto 5px;
+}
+main ul .btn btn-primary position-relative {
+  font-size: 20px;
+}
+section {
+  background-color: rgb(131, 131, 201);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 12px;
+}
+.vertic {
+  background-color: rgb(168, 164, 164);
+  width: 15%;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.vertic td a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.vertic th {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.part1 {
+  background-color: rgb(94, 94, 163);
+  padding: 9px;
+  border-radius: 12px;
+}
+.part1 {
+  font-weight: bold;
+}
+.part1 .d {
+  font-size: 17px;
+}
+.part1 a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#contcalendar {
+  width: 300px;
+  height: 250px;
+
+  background-color: rgb(131, 131, 201);
+  -webkit-box-shadow: 20px 20px 20px grey;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=120,strength=5);
+  box-shadow: 10px 10px 10px #212121;
+  border: 1px solid rgb(131, 131, 201);
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 20px;
+}
+
+#contcalendar table {
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=120,strength=7);
+}
+#contcalendar table tr {
+  color: antiquewhite;
+}
+.horiison {
+  display: flex;
+  justify-content: space-between;
+}
+.boo {
+  background-color: rgb(131, 131, 201);
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 12px;
+  width: 100px;
+  padding: 10px;
+}
+#contcalendar table tr :hover {
+  opacity: 0.5;
+  background-color: rgb(104, 51, 153);
+  transform: scale(1.7);
+  transition: 0.1s ease-in-out;
+  cursor: grab;
+}
+.center {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.vide {
+  display: flex;
+  justify-content: space-between;
+}
+.cont {
+  width: 75%;
+
+  border: #a5a1a1;
+  border-radius: 12px;
+  padding-right: 17px;
+  margin-top: 35px;
+  line-height: 40px;
+}
+.cont input {
+  background-color: rgb(168, 164, 164);
+  border: none;
+  line-height: 30px;
+  border-radius: 7px;
+}
+.cont .btt {
+  background-color: #333333;
+  margin-left: 12px;
+  padding: 7px;
+}
+.cont td {
+  font-size: 20px;
+}
+.cont label {
+  font-size: 20px;
+}
+
+#deuxiemetrait {
+  height: 1.5px;
+  width: 75%;
+  background-color: black;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+/* ************Footer********* */
+
+#icons {
+  text-align: right;
+  margin-bottom: 40px;
+}
+#icons a {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 1.7em;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+#copyright {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#ca

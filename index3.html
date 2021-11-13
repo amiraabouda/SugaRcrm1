@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+
+    <title>SugarCRM</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,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"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  </head>
+  <body>
+   
+    <header>
+      <img
+        src="https://mms.businesswire.com/media/20190731005892/fr/735325/23/logo-full-color.jpg"
+        alt="sugarcrm"
+      />
+      <ul>
+        <li><a href="#">Mon compte</a></li>
+        <li>|</li>
+        <li><a href="#">Employés</a></li>
+        <li>|</li>
+        <li><a href="#">Administration</a></li>
+        <li>|</li>
+        <li><a href="#">Deconnection</a></li>
+        <li>|</li>
+        <li><a href="#"> A propos de</a></li>
+      </ul>
+    </header>
+    <main>
+        <ul>
+            <li><a href="index2.html">Accueil</a></li>
+            <li><a href="8*">portail</a></li>
+            <li><a href="index5.html">Calendrier</a></li>
+            <li><a href="**">Activités</a></li>
+            <li><a href="index3.html">Contacts</a></li>
+            <li><a href="index4.html">Comptes</a></li>
+            <li><a href="#*">Leads</a></li>
+            <li><a href="*#">Opportunités</a></li>  
+            <li><a href="**">Réclamations</a></li>
+             <li><a href="**">Suivi des bugs</a></li>
+              <li><a href="**">Documents</a></li>
+              <button type="button" class="btn btn-primary position-relative">
+                
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+             1+
+                  <span class="visually">email</span>
+                </span>
+              </button>
+            
+
+    </main>
+    <section>
+      <p>Bienvenue admin</p>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </section>
+    <div class="part1"><span class="d">Dernier consultation  </span>
+      
+       <img src="search.png" width=10px height=10px><a href="#">Test</a>
+      <a href="#">Adminestrator</a></div>
+      <aside  class="horiison">
+    <div class="vertic">
+      <table >
+        <tr><th colspan=2 >Raccourcis</th>
+        
+        <tr><td><i class="fa fa-address-card"></i> </td>  <td><a href="**">Créer un Contact</a></td></tr>
+        <tr><td> <i class="fa fa-address-card"></i></td>  <td><a href="#*">Créer une tache</a></td></tr>
+         <tr><td><i class="fa fa-address-card"></i>  </td> <td><a href="**">céer un compte</a></td></tr>
+         <tr><td> <i class="fa fa-address-card"></i></td> <td><a href="**">céer un lead</a></td></tr>
+        <tr><td>   <i class="fa fa-address-card"></i> </td><td><a href="**">rechercher contact</a></td></tr>
+        <tr><td>   <i class="fa fa-address-card"></i></td>  <td><a href="**">recherche compte</a></td></tr>
+        <tr><td>    <i class="fa fa-address-card"></i> </td>  <td><a href="**">convertir en contact </a></td></tr>
+        <tr><td>   <i class="fa fa-address-card"></i> </td>  <td><a href="**">saisir une Business Card </a></td></tr>
+        <tr><td>    <i class="fa fa-address-card"></i> </td>  <td><a href="**">signaler un Bug</a></td></tr>
+        <tr><td>   <i class="fa fa-address-card"></i></td>  <td><a href="**">Planifier une Réunion </a></td></tr>
+        <tr><td>    <i class="fa fa-address-card"></i>  <td><a href="**">Planifier un appel</a></td></tr>
+        <tr><td>   <i class="fa fa-address-card"></i> </td>  <td><a href="**">Ecrire un Email</a></td></tr>
+      </table>
+        </div>
+        <div class="center">
+            <form>
+              <div class="cont">
+                <fieldset>
+                <table>
+                  <tbody>
+                    
+                  <tr>
+                      <th>
+                        <label for="nominp">nom:</label>
+                      </th>
+                      <td>
+                        <input id="nominp" type="email" name="email" value="wafa@mail.com">
+                      </td> 
+                    </tr>
+                    
+                      <tr>
+                      <th>
+                        <label for="fonc">fonction:</label></th>
+                      <td>
+                        <input id="fonc" type="text" name="fonc" value="">
+                      </td> 
+                    </tr>
+                     <tr>
+                      <th><label for="servi">service:</label>
+                      </th>
+                      <td>
+                        <input type="text" name="servi" value=""></td> 
+                    </tr>
+                   
+                    <tr>
+                      <th>
+                        <label for="emailll"> Email:</label>
+                      </th>
+                      <td>
+                        <input id="emailinp" type="email" name="email" value="wafa@mail.com">
+                      </td>
+                    </tr>
+                    
+                    
+                    
+                
+                  </tbody>
+                    </table></fieldset>
+              
+              
+              
+               <fieldset><h3>adresse</h3>
+              <table cellspacing="10">
+                <tr>
+                  <th>adresse principale</th>
+                  <td>
+                   <input id="adresse" type="emailcompte"  name="adress">
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <label for="vill">ville</label>
+                  </th>
+                  <td>
+                  <input id="vill" type="text" name="vila" value="">
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                  <label for="etdep">etat/departement</label>
+                  </th>
+                  <td>
+                     <input id="etdep" type="text" name="etdepp" value="">
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                   <label for="codepostal">Code postal</label>
+                        
+                  </th>
+                  <td>
+                   <input id="codepostal" name="codepostall" type="text" >
+                  </td>
+                </tr>
+                <tr>
+                <th>
+                   <label for="pays">Pays</label>
+                       
+                </th>
+                <td>
+                     <input id="pays" name="pays" type="text" >
+                </td>
+                </tr>
+                </table></fieldset>
+                <table>
+                    <tr>
+                        <td>
+                          <button onclick="type()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            submit
+                          </button>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <h1>Name: <span id="nomtext"></span></h1>
+                                <h1>email: <span id="emailtext"></span></h1>
+
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                        </td>
+                        
+                        <td>
+                          <input type="reset" class="btt" value="annuler">
+                        </td>
+                      <td><a href="">Editer</a></td> 
+                      </tr> 
+                      </table></form>
+          
+          </div></div>
+       
+        <div id='contcalendar'>
+
+        </div></aside>
+      
+        <div id="deuxiemetrait"></div>
+        <footer>
+        <div id="copyrightEtIcons">
+          <div id="copyright">
+            <span>ByAmira();2021</span>
+          </div>
+        </div>
+        <div id="icons">
+          <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+          <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.instagram.fr"><i class="fa fa-instagram"></i></a>
+        </div></footer>
+    <script src="script3.js"></script>
+  </body>
+</html>

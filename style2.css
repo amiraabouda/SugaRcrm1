@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 200px;
+}
+body {
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-right: 12px;
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  background-color: rgb(187, 182, 182);
+  height: 50px;
+  width: 100%;
+  border-radius: 15px;
+}
+main ul {
+  display: flex;
+}
+main ul li {
+  list-style: none;
+  margin-left: 7px;
+  align-items: center;
+}
+main ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  justify-items: center;
+  padding: 10px;
+}
+main ul li a:hover {
+  background-color: rgb(131, 131, 201);
+  color: #fff;
+  border-radius: 7px;
+  cursor: grab;
+  transition: 0.3s ease-in-out;
+}
+
+section {
+  background-color: rgb(131, 131, 201);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 12px;
+}
+.vertic {
+  background-color: rgb(168, 164, 164);
+  width: 15%;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.vertic td a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.vertic th {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.part1 {
+  background-color: rgb(94, 94, 163);
+  padding: 9px;
+  border-radius: 12px;
+}
+.part1 {
+  font-weight: bold;
+}
+.part1 .d {
+  font-size: 17px;
+}
+.part1 a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact1 {
+  background-color: rgb(168, 164, 164);
+  width: 15%;
+  height: 300px;
+  border-radius: 15px;
+  margin-bottom: 12 px;
+}
+#contcalendar {
+  width: 300px;
+  height: 250px;
+
+  background-color: rgb(131, 131, 201);
+  -webkit-box-shadow: 20px 20px 20px grey;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=120,strength=5);
+  box-shadow: 10px 10px 10px #212121;
+  border: 1px solid rgb(131, 131, 201);
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 20px;
+  cursor: grab;
+}
+#contcalendar table tr :hover {
+  opacity: 0.5;
+  background-color: blueviolet;
+  transform: scale(1.5);
+  transition: 0.1s ease-in-out;
+  cursor: grab;
+}
+
+#contcalendar table {
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=120,strength=7);
+}
+.horiison {
+  display: flex;
+  justify-content: space-between;
+}
+.boo {
+  background-color: rgb(131, 131, 201);
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 12px;
+  width: 100px;
+  padding: 10px;
+}
+.boo:hover {
+  background-color: tomato;
+}
+.center {
+  width: 55%;
+}
+.center h2 {
+  color: rgb(227, 150, 247);
+  font-style: italic;
+}
+.vide {
+  display: flex;
+  justify-content: space-between;
+}
+#deuxiemetrait {
+  height: 1.5px;
+  width: 75%;
+  background-color: black;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+/* ************Footer********* */
+
+#icons {
+  text-align: right;
+  margin-bottom: 40px;
+}
+#icons a {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 1.7em;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+#copyright {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
